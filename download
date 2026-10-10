@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+credentials.json
+
+# Large/generated files
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.model
+
+# OS/editor
+.DS_Store
+Thumbs.db
